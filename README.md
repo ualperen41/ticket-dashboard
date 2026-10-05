@@ -140,8 +140,7 @@ npm install
 Kök dizinde `.env` (veya `.env.local`) dosyası oluşturup aşağıdaki değişkenleri ekleyin:
 
 ```env
-# MongoDB bağlantı adresi
-MONGO_URI="mongodb://localhost:27017/tickets-db"
+
 
 # Uygulama URL'i (Next.js server bileşenlerinde fetch çağrıları için)
 NEXT_PUBLIC_APP_URL="http://localhost:3000"
